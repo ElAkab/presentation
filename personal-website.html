@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal Site</title>
+		<link href="personal-website.css" rel="stylesheet" />
+		<link href="./images/Akab original logo.jpg" rel="shortcut icon" />
+	</head>
+	<body>
+		<!-- Header -->
+		<header id="header-field">
+			<nav class="nav-bar">
+				<!-- Icone -->
+				<abbr title="presentation">
+					<img
+						src="./images/Akab original logo.jpg"
+						alt="Akab original logo"
+						width="50"
+					/>
+				</abbr>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#project">Project</a></li>
+					<li><a href="#contact-field">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<main class="container">
+			<!-- Presentation field -->
+			<section class="presentation">
+				<div>
+					<h2>Who am i ?</h2>
+					<p>
+						A young person who had to interrupt their studies for health
+						reasons. This forced me to rethink my future and to find a field
+						truly within my reach. For a long time, computer science meant
+						nothing to me — I only saw it as a world too complex and far from my
+						abilities. Yet, after searching and exploring, I eventually dove
+						into it and discovered a completely new universe, both stimulating
+						and demanding. Step by step, I learned how to write code, to turn
+						mistakes into progress, and to hold on despite my doubts. Even
+						today, I still see myself as a beginner who experiments, often
+						fails, but enjoys moving forward in a field that never spoke to me
+						until now. Each project, no matter how small, feels like a victory
+						in my journey, a way to prove that I can grow. The path is still
+						full of obstacles, but it pushes me to go further each day and gives
+						me the feeling that I’ve finally found a ground where I can build
+						something meaningful. It may not be a perfect story, but it is mine,
+						and with this background I continue to move forward.
+					</p>
+				</div>
+				<img
+					id="presentation-pic"
+					src="./images/Akab original logo.jpg"
+					alt=""
+				/>
+			</section>
+
+			<hr />
+
+			<!-- About -->
+			<section id="about">
+				<img
+					id="technology-icon"
+					src="https://img.freepik.com/premium-vector/hand-drawn-devops-engineers-concept-cartoon-doodle-flat-vector-illustration-isolated-white-background-drawing-book_218712-165.jpg"
+					alt="technology icon"
+					width="50"
+				/>
+				<div>
+					<h2>About Me</h2>
+					<p>
+						Trying my best to improve and become a decent developer, but still
+						just a work in progress (and often a mess). I enjoy learning,
+						experimenting, and turning ideas into projects, even if they don’t
+						always go as planned.
+					</p>
+					<ul>
+						<li>💻 Actual skills: HTML, CSS, JavaScript, Node.js</li>
+						<li>🎨 Interests: Mobile app, Game dev, IA</li>
+						<li>🚀 Goal: Build impactful web applications</li>
+					</ul>
+				</div>
+			</section>
+
+			<hr />
+
+			<!-- Project -->
+			<section id="project">
+				<h2>Projects</h2>
+				<div class="project-card">
+					<h3>Interactive Calendar</h3>
+					<img
+						style="margin: 10px 0 10px 25px"
+						src="./images/Projects/image (1).webp"
+						alt="First project: Interactive calendar"
+						width="250"
+					/>
+					<details>
+						<summary class="description">
+							This interface is perfect for scheduling one or more dates that
+							work for everyone.
+						</summary>
+						<p>
+							It allows you to freely choose as many dates as needed and stores
+							them automatically. One of the highlights of this project is that
+							holidays and vacation days are visually distinguished with a
+							unique style, making them easier to identify at a glance.
+						</p>
+					</details>
+				</div>
+
+				<div class="project-card">
+					<h3>HTTP Code Training</h3>
+					<video width="250" autoplay loop muted>
+						<source src="./images/Projects/http-project.mp4" type="video/mp4" />
+					</video>
+					<details>
+						<summary class="description">
+							This project was designed to help memorize common HTTP/HTTPS
+							status codes.
+						</summary>
+						<p>
+							On the left side, buttons are available for each status code. Once
+							a button is clicked, it gets disabled to avoid repetition. On the
+							right side, the corresponding explanation appears, with an option
+							to hide or reveal it. This makes the tool interactive, simple to
+							use, and very effective for practice.
+						</p>
+					</details>
+				</div>
+
+				<div class="project-card">
+					<h3>Password Generator<br />(Sign-Up Form)</h3>
+					<video width="250" autoplay loop muted>
+						<source
+							src="./images/Projects/password-confirmation.mp4"
+							type="video/mp4"
+						/>
+					</video>
+					<details>
+						<summary class="description">
+							A sign-up form with a built-in password generator.
+						</summary>
+						<p>
+							This project provides users with a modern and secure way to create
+							strong passwords instantly. The form includes a password generator
+							that suggests complex combinations of letters, numbers, and
+							special characters, significantly enhancing account security.
+							Users can also confirm the generated password to ensure it matches
+							before submitting the form, offering a smooth and reliable sign-up
+							experience. This feature demonstrates both usability and best
+							practices in user authentication design.
+						</p>
+					</details>
+				</div>
+			</section>
+
+			<!-- Contact -->
+			<section id="contact-field">
+				<h2>Contact Me (not for real 😅)</h2>
+
+				<!-- Contact form -->
+				<form id="contact-form">
+					<input type="text" name="name" placeholder="Your Name ()" required />
+					<input type="email" name="email" placeholder="Your Email" required />
+					<textarea
+						name="message"
+						placeholder="Your Message"
+						rows="5"
+					></textarea>
+					<button type="submit">Send Message</button>
+				</form>
+
+				<!-- Social links -->
+				<div id="social-links">
+					<a href="https://twitter.com" target="_blank">Twitter</a> |
+					<a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+					<a href="https://github.com" target="_blank">GitHub</a>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer>
+			<p>&copy; 2025 Akab. All rights reserved. >:C</p>
+		</footer>
+	</body>
+</html>
