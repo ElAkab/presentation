@@ -1,2 +1,2 @@
-A simple website where i present myself and some of my oldest projects.
-Don't expect much, it's just a really simple project, using only HTML & CSS.
+A simple website where I introduce myself and showcase some of my earliest projects. 
+Don’t expect much, it’s just a very basic project built with only HTML & CSS (for fun).
